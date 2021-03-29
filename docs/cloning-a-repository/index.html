@@ -1,0 +1,418 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" CONTENT="index, follow">
+
+<title>Cloning a Repository | PolyGit</title>
+
+
+
+
+
+<link rel="preload" href="/scss/main.min.acf5b0e00d0529a615deff1b075f9aea1dfbba05f7f5000ddfb7d0d49eeb39bf.css" as="style">
+<link href="/scss/main.min.acf5b0e00d0529a615deff1b075f9aea1dfbba05f7f5000ddfb7d0d49eeb39bf.css" rel="stylesheet" integrity="">
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="/index.css">
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
+
+
+<link rel="icon" href="/favicon.png">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-183751415-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-183751415-1');
+</script>
+    </head>
+    <body class="d-flex flex-column min-vh-100"> 
+        <div class="poly-bg-black">
+    <div class="container-fluid">
+        <div class="row poly-header">
+            <div class="col-12 col-lg-5 mb-3 mb-lg-0 d-flex justify-content-start align-items-center">
+            	<a href="/">
+        	        <img src="/icon.jpg" class="poly-header-image mr-3">
+        	    </a>
+        	    <a href="/" class="mr-3">
+                    <div class="poly-header-title">PolyGit</div>
+                </a>
+                <a href="/" class="d-none d-lg-block">
+                    <div class="poly-header-subtitle">iOS Git Client</div>
+                </a>
+                <a class="d-block d-lg-none ml-auto" href="https://apps.apple.com/us/app/polygit-git-client/id1508942822">
+                    <img class="poly-header-button" src="/download.svg">
+                </a>
+            </div>
+    	    
+    		<div class="col-12 col-lg-7 d-flex justify-content-center justify-content-lg-end align-items-center">
+    			
+    			
+    				
+    				
+                    
+                    
+    				
+                    
+    				<a class="poly-header-link  mx-3" href="/">Overview</a>
+    			
+    				
+    				
+    					
+    				
+                    
+                    
+    				
+                    
+                        
+                    
+    				<a class="poly-header-link poly-header-link-active mx-3" href="/docs/quick-start/">Documentation</a>
+    			
+    				
+    				
+    					
+    				
+                    
+                    
+    				
+                    
+    				<a class="poly-header-link  mx-3" href="/support/">Support</a>
+    			
+                
+                <a class="d-none d-lg-block ml-3" href="https://apps.apple.com/us/app/polygit-git-client/id1508942822">
+                    <img class="poly-header-button" src="/download.svg">
+                </a>
+    		</div>
+        </div>
+    </div>
+</div>
+        
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-lg-3 docs-sidebar-background">
+            <div class="docs-sidebar py-4 py-lg-5">
+    
+    
+    
+    
+    
+    
+        <div class="docs-sidebar-section docs-sidebar-root ">Documentation</div>
+    
+    <div>
+        
+            
+                
+    
+    
+    
+    
+        <a href="/docs/quick-start/" class="docs-sidebar-section ">Quick Start</a>
+    
+    <div>
+        
+    </div>
+
+            
+        
+            
+                
+    
+    
+    
+    
+        <a href="/docs/cloning-a-repository/" class="docs-sidebar-section active">Cloning a Repository</a>
+    
+    <div>
+        
+    </div>
+
+            
+        
+            
+                
+    
+    
+    
+    
+        <a href="/docs/importing-a-repository/" class="docs-sidebar-section ">Importing a Repository</a>
+    
+    <div>
+        
+    </div>
+
+            
+        
+            
+                
+    
+    
+    
+    
+        <a href="/docs/creating-a-new-repository/" class="docs-sidebar-section ">Creating a Repository</a>
+    
+    <div>
+        
+    </div>
+
+            
+        
+            
+                
+    
+    
+    
+    
+        <a href="/docs/pushing-and-pulling/" class="docs-sidebar-section ">Pushing and Pulling</a>
+    
+    <div>
+        
+    </div>
+
+            
+        
+            
+                
+                <a class="docs-sidebar-page " href="/docs/stashing-changes/">Stashing Changes</a>
+            
+        
+            
+                
+                <a class="docs-sidebar-page " href="/docs/keyboardshortcuts/">Keyboard Shortcuts</a>
+            
+        
+            
+                
+                <a class="docs-sidebar-page " href="/docs/changelog/">Changelog</a>
+            
+        
+    </div>
+
+</div>
+
+
+
+        </div>
+        <main class="col-12 col-lg-9">
+            <div class="poly-docs-content">
+                <h1>Cloning a Repository</h1>
+                <h3 id="cloning-a-repository-https">Cloning a repository (HTTPS)</h3>
+<ol>
+<li>Go to the Repositories screen.</li>
+<li>Select <em>Clone Repository</em>.</li>
+<li>Enter the HTTPS URL of the repository you would like to clone.</li>
+</ol>
+<ul>
+<li>On GitHub this can be found by selecting the <em>Code</em> button and then <em>HTTPS</em>.</li>
+</ul>
+
+
+
+
+
+
+
+<div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 291px">
+	<img class="card-img-top" src="/docs/cloning-a-repository/github-https_hud227eea727c5fbd40fb1d8aff814b033_96148_1000x500_fit_catmullrom_2.png" width="281" height="250">
+	
+	<div class="card-body px-0 pt-2 pb-0">
+		<p class="card-text">
+</p>
+	</div>
+	
+</div>
+<ul>
+<li>On BitBucket this can be found by selecting the <em>Clone</em> button and then <em>HTTPS</em> in the upper right dropdown.</li>
+</ul>
+
+
+
+
+
+
+
+<div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 434px">
+	<img class="card-img-top" src="/docs/cloning-a-repository/bitbucket-https_hue1aa19708d289e92c0e0618e0f1d3ac6_96117_1000x500_fit_catmullrom_2.png" width="424" height="250">
+	
+	<div class="card-body px-0 pt-2 pb-0">
+		<p class="card-text">
+</p>
+	</div>
+	
+</div>
+<ul>
+<li>On GitLab this can be found by selecting the <em>Clone</em> button.:</li>
+</ul>
+
+
+
+
+
+
+
+<div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 382px">
+	<img class="card-img-top" src="/docs/cloning-a-repository/gitlab-https_hucdb540b5bf88a2fd11e8e64eb64e4d03_49804_1000x500_fit_catmullrom_2.png" width="372" height="250">
+	
+	<div class="card-body px-0 pt-2 pb-0">
+		<p class="card-text">
+</p>
+	</div>
+	
+</div>
+<ol start="4">
+<li>Select <em>Clone</em>.</li>
+<li>When prompted, enter the credentials for your Git provider.</li>
+<li>If you have 2-factor auth enabled, you may need to generate a custom password with your provider.</li>
+</ol>
+<ul>
+<li>Github: <a href="https://docs.github.com/github/authenticating-to-github/creating-a-personal-access-token">Personal access token</a></li>
+<li>BitBucket: <a href="https://support.atlassian.com/bitbucket-cloud/docs/app-passwords/">App password</a></li>
+<li>GitLab: <a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html">Personal access token</a></li>
+</ul>
+<ol start="7">
+<li>The repository will begin cloning to your device!</li>
+</ol>
+<h3 id="cloning-a-repository-ssh">Cloning a repository (SSH)</h3>
+<ol>
+<li>Go to the Repositories screen.</li>
+<li>Select <em>Clone Repository</em>.</li>
+<li>Enter the SSH URL of the repository you would like to clone.</li>
+<li>Select <em>Clone</em>.</li>
+</ol>
+<ul>
+<li>On GitHub this can be found by selecting the <em>Code</em> button and then <em>SSH</em>.</li>
+</ul>
+
+
+
+
+
+
+
+<div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 308px">
+	<img class="card-img-top" src="/docs/cloning-a-repository/github-ssh_hu5078c25573ae225ac3f3ed65bf5e3d9a_79315_1000x500_fit_catmullrom_2.png" width="298" height="250">
+	
+	<div class="card-body px-0 pt-2 pb-0">
+		<p class="card-text">
+</p>
+	</div>
+	
+</div>
+<ul>
+<li>On BitBucket this can be found by selecting the <em>Clone</em> button and then <em>SSH</em> in the upper right dropdown.</li>
+</ul>
+
+
+
+
+
+
+
+<div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 425px">
+	<img class="card-img-top" src="/docs/cloning-a-repository/bitbucket-ssh_hu465f5153075f809fd8c5cfce7e8b28b5_92312_1000x500_fit_catmullrom_2.png" width="415" height="250">
+	
+	<div class="card-body px-0 pt-2 pb-0">
+		<p class="card-text">
+</p>
+	</div>
+	
+</div>
+<ul>
+<li>On GitLab this can be found by selecting the <em>Clone</em> button.:</li>
+</ul>
+
+
+
+
+
+
+
+<div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 371px">
+	<img class="card-img-top" src="/docs/cloning-a-repository/gitlab-ssh_hu3b355d0a402a7d7e9f00c021f4e65572_49048_1000x500_fit_catmullrom_2.png" width="361" height="250">
+	
+	<div class="card-body px-0 pt-2 pb-0">
+		<p class="card-text">
+</p>
+	</div>
+	
+</div>
+<ol start="5">
+<li>When prompted to authenticate, select <em>Export Public Key</em> and then <em>Copy Key</em>.</li>
+<li>Register the public SSH key with your Git provider.</li>
+</ol>
+<ul>
+<li>Github: <a href="https://docs.github.com/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account">SSH keys</a></li>
+<li>BitBucket: <a href="https://support.atlassian.com/bitbucket-cloud/docs/set-up-an-ssh-key/">SSH keys</a></li>
+<li>GitLab: <a href="https://docs.gitlab.com/ee/ssh/#adding-an-ssh-key-to-your-gitlab-account">SSH keys</a></li>
+</ul>
+<ol start="7">
+<li>Select <em>OK</em> to go back to the Clone screen.</li>
+<li>Select <em>Clone</em>.</li>
+<li>The repository will begin cloning to your device!</li>
+</ol>
+
+                <div class="section-index">
+    
+    
+    
+    
+        
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    
+</div>
+
+            </div>
+        </main>
+    </div>
+</div>
+
+        <div class="poly-footer mt-auto poly-pt-5 poly-pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="poly-footer-text"><ion-icon name="mail"></ion-icon><a href="mailto:polygitapp@gmail.com">polygitapp@gmail.com</a></div>
+                <div class="poly-footer-text"><ion-icon name="logo-twitter"></ion-icon><a href="https://twitter.com/polygitapp">@polygitapp</a></div>
+                Designed and built by a real human bean © 2021
+            </div>
+        </div>
+    </div>
+<div>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+
+    
+    <script src="/js/main.min.9090abfa2de281a6a343d90551de6409bec4386e083bd36f714ea68ecf619df1.js" integrity="sha256-kJCr&#43;i3igaajQ9kFUd5kCb7EOG4IO9NvcU6mjs9hnfE=" crossorigin="anonymous"></script>
+
+
+    </body>
+</html>

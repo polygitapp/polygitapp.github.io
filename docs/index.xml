@@ -1,0 +1,431 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PolyGit – Documentation</title>
+    <link>http://www.polygitapp.com/docs/</link>
+    <description>Recent content in Documentation on PolyGit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="http://www.polygitapp.com/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Stashing Changes</title>
+      <link>http://www.polygitapp.com/docs/stashing-changes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.polygitapp.com/docs/stashing-changes/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Git stash is a tool that lets you stash the changes in a dirty working directory away. See Git&amp;rsquo;s &lt;a href=&#34;https://git-scm.com/docs/git-stash&#34;&gt;documentation&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;h3 id=&#34;saving-the-stash&#34;&gt;Saving the stash&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Open a repository.&lt;/li&gt;
+&lt;li&gt;Switch to the &lt;em&gt;Status&lt;/em&gt; tab.&lt;/li&gt;
+&lt;li&gt;Tap the box icon in the upper right hand corner.&lt;/li&gt;
+&lt;li&gt;Tap the &lt;em&gt;Save Stash&lt;/em&gt; button.&lt;/li&gt;
+&lt;li&gt;Your local changes will be saved to the most recent stash.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;restoring-the-stash&#34;&gt;Restoring the Stash&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Open a repository.&lt;/li&gt;
+&lt;li&gt;Switch to the &lt;em&gt;Status&lt;/em&gt; tab.&lt;/li&gt;
+&lt;li&gt;Tap the box icon in the upper right hand corner.&lt;/li&gt;
+&lt;li&gt;Tap the &lt;em&gt;Pop Stash&lt;/em&gt; button.&lt;/li&gt;
+&lt;li&gt;Your local directory will be saved to the most recent stash.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;viewing-the-stash&#34;&gt;Viewing the Stash&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Open a repository.&lt;/li&gt;
+&lt;li&gt;Switch to the &lt;em&gt;Status&lt;/em&gt; tab.&lt;/li&gt;
+&lt;li&gt;Tap the box icon in the upper right hand corner.&lt;/li&gt;
+&lt;li&gt;Tap the &lt;em&gt;View Stash List&lt;/em&gt; button.&lt;/li&gt;
+&lt;li&gt;Your local directory will be saved to the most recent stash.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Keyboard Shortcuts</title>
+      <link>http://www.polygitapp.com/docs/keyboardshortcuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.polygitapp.com/docs/keyboardshortcuts/</guid>
+      <description>
+        
+        
+        &lt;p&gt;PolyGit supports a wide variety of keyboard shortcuts when connected to an external keyboard. You can view this list in the app&amp;rsquo;s settings or by holding down the ⌘ key.&lt;/p&gt;
+&lt;h3 id=&#34;general&#34;&gt;General&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Shortcut&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Go Forward&lt;/td&gt;
+&lt;td&gt;⌘ Ctrl ]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Go Backward&lt;/td&gt;
+&lt;td&gt;⌘ Ctrl [&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;New File&lt;/td&gt;
+&lt;td&gt;⌘ N&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;New Folder&lt;/td&gt;
+&lt;td&gt;⌘ Shift N&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Import File&lt;/td&gt;
+&lt;td&gt;⌘ O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Quick Open&lt;/td&gt;
+&lt;td&gt;⌘ Shift O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Preview&lt;/td&gt;
+&lt;td&gt;⌘ R&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Preview in Safari&lt;/td&gt;
+&lt;td&gt;⌘ Shift R&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Toggle Sidebar&lt;/td&gt;
+&lt;td&gt;⌘ 0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Switch to Files&lt;/td&gt;
+&lt;td&gt;⌘ 1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Switch to Status&lt;/td&gt;
+&lt;td&gt;⌘ 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Switch to Branches&lt;/td&gt;
+&lt;td&gt;⌘ 3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Switch to Commits&lt;/td&gt;
+&lt;td&gt;⌘ 4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Switch to Search&lt;/td&gt;
+&lt;td&gt;⌘ 5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;text-editing&#34;&gt;Text Editing&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Shortcut&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Indent&lt;/td&gt;
+&lt;td&gt;⌘ ]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Unindent&lt;/td&gt;
+&lt;td&gt;⌘ [&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Move Line Up&lt;/td&gt;
+&lt;td&gt;⌘ Ctrl ↑&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Move Line Down&lt;/td&gt;
+&lt;td&gt;⌘ Ctrl ↓&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Select Word&lt;/td&gt;
+&lt;td&gt;⌘ D&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Select Line&lt;/td&gt;
+&lt;td&gt;⌘ L&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Select All&lt;/td&gt;
+&lt;td&gt;⌘ A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Find&lt;/td&gt;
+&lt;td&gt;⌘ F&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Find with Selection&lt;/td&gt;
+&lt;td&gt;⌘ E&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Find Next&lt;/td&gt;
+&lt;td&gt;⌘ G&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Find Previous&lt;/td&gt;
+&lt;td&gt;⌘ Shift G&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Increase Font Size&lt;/td&gt;
+&lt;td&gt;⌘ +&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Decrease Font Size&lt;/td&gt;
+&lt;td&gt;⌘ -&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;git&#34;&gt;Git&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Shortcut&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Show Pull Page&lt;/td&gt;
+&lt;td&gt;⌘ Ctrl P&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Show Push Page&lt;/td&gt;
+&lt;td&gt;⌘ Ctrl X&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Show Commit Page&lt;/td&gt;
+&lt;td&gt;⌘ Ctrl C&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Stage All&lt;/td&gt;
+&lt;td&gt;⌘ Ctrl S&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Unstage All&lt;/td&gt;
+&lt;td&gt;⌘ Ctrl S&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Changelog</title>
+      <link>http://www.polygitapp.com/docs/changelog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.polygitapp.com/docs/changelog/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;280---mar-3-2021&#34;&gt;28.0 - Mar 3, 2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Auto-indentation now handles Markdown block markers.&lt;/li&gt;
+&lt;li&gt;Enhancement: Editor settings cleanup.&lt;/li&gt;
+&lt;li&gt;Enhancement: Support importing repositories as bundles.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix issue importing repositories from iCloud Drive.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix issue getting the status of ignored directories.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;270---feb-17-2021&#34;&gt;27.0 - Feb 17, 2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Merge tool.&lt;/li&gt;
+&lt;li&gt;Enhancement: Updated syntax highlighting.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix indentation settings not being respected when connected to external keyboard.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;260---feb-11-2021&#34;&gt;26.0 - Feb 11, 2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Horizontal scrolling. Set the &amp;lsquo;Column Wrap Width&amp;rsquo; in Settings to disable line wrapping and scroll horizontally through your files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;250---jan-20-2021&#34;&gt;25.0 - Jan 20, 2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Per file indentation settings.&lt;/li&gt;
+&lt;li&gt;New: Option to set a branch&amp;rsquo;s upstream branch.&lt;/li&gt;
+&lt;li&gt;Enhancement: Remove restrictions on merging, rebasing, checking out and pulling with local changes.&lt;/li&gt;
+&lt;li&gt;Enhancement: Show stashes on commit graph&lt;/li&gt;
+&lt;li&gt;Enhancement: Improve stash list.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;240---jan-13-2021&#34;&gt;24.0 - Jan 13, 2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Keyboard shortcuts.&lt;/li&gt;
+&lt;li&gt;New: Sample repository.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;230---jan-6-2021&#34;&gt;23.0 - Jan 6, 2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Browse files at a commit.&lt;/li&gt;
+&lt;li&gt;New: Expanded context menu.&lt;/li&gt;
+&lt;li&gt;New: Search and replace.&lt;/li&gt;
+&lt;li&gt;New: Rename your repositories.&lt;/li&gt;
+&lt;li&gt;New: Option to rebase when pulling.&lt;/li&gt;
+&lt;li&gt;Enhancement: Improve conflict error messaging.&lt;/li&gt;
+&lt;li&gt;Enhancement: Improve image preview.&lt;/li&gt;
+&lt;li&gt;Enhancement: Improve repository info page.&lt;/li&gt;
+&lt;li&gt;Enhancement: Adjust review prompt frequency.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;220---dec-17-2020&#34;&gt;22.0 - Dec 17, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: HTML and Markdown previews in Safari.&lt;/li&gt;
+&lt;li&gt;New: Search by commit SHA.&lt;/li&gt;
+&lt;li&gt;New: Recent searches on Search tab.&lt;/li&gt;
+&lt;li&gt;Enhancement: Significant improvements to file name search performance.&lt;/li&gt;
+&lt;li&gt;Enhancement: Fade content behind footer buttons.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix keyboard accessory view displaying on locked files.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix scrolling issues on locked files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;210---dec-9-2020&#34;&gt;21.0 - Dec 9, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhancement: Updated popover design.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix commit screen not prepopulating with previous commit message when amending.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix bug where the cursor would jump to the end when writing a commit message.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix bug where various commands could fail if the user had not set a Git identity.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix bug where &amp;lsquo;Mark Resolved&amp;rsquo; button text was cut off on smaller devices.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix inconsistent padding on text fields.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix bug where file diff would get stuck displaying loading indicator.&lt;/li&gt;
+&lt;li&gt;Bugfix: Remove &amp;lsquo;More&amp;rsquo; swipe menu from the directory list.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;200---nov-28-2020&#34;&gt;20.0 - Nov 28, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Git Rebase support.&lt;/li&gt;
+&lt;li&gt;Enhancement: Updated button and popover design.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;190---nov-25-2020&#34;&gt;19.0 - Nov 25, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Syntax highlighting picker.&lt;/li&gt;
+&lt;li&gt;New: Option to amend the latest commit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;180---nov-16-2020&#34;&gt;18.0 - Nov 16, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Configure the name of a repository when cloning/importing.&lt;/li&gt;
+&lt;li&gt;New: Option to force push branches and tags&lt;/li&gt;
+&lt;li&gt;Enhancement: Use iOS 14 context menus when possible.&lt;/li&gt;
+&lt;li&gt;Enhancement: Update word-wrapping settings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;170---nov-10-2020&#34;&gt;17.0 - Nov 10, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Stage and unstage hunks.&lt;/li&gt;
+&lt;li&gt;Enhancement: Improve syntax highlighting performance.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix paragraph style settings not being respected.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix deleted files not being closed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;160---nov-3-2020&#34;&gt;16.0 - Nov 3, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhancement: Update libgit2 to v1.1.0.&lt;/li&gt;
+&lt;li&gt;Enhancement: Update diff colors.&lt;/li&gt;
+&lt;li&gt;Enhancement: Refactor credentials code.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix incorrect copy on credentials page.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;150---oct-26-2020&#34;&gt;15.0 - Oct 26, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Create, delete and push tags.&lt;/li&gt;
+&lt;li&gt;New: Delete remote branches.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix app not working when VoiceOver was enabled.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix scroll position not restoring consistently for large files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;140---oct-15-2020&#34;&gt;14.0 - Oct 15, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Added stash page. View a list of your stashes.&lt;/li&gt;
+&lt;li&gt;Enhancement: Updated syntax highlighting theme.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix commit screen not dismissing after error.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;130---sept-30-2020&#34;&gt;13.0 - Sept 30, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Custom Repository Locations. Clone your repositories into a directory of your choice. Subscribe to PolyGit Pro to access.&lt;/li&gt;
+&lt;li&gt;Enhancement: Significant improvements to syntax highlighting accuracy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;120---sept-2-2020&#34;&gt;12.0 - Sept 2, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Added keyboard buttons for indent, unindent, move line up, move line down and delete line&lt;/li&gt;
+&lt;li&gt;New: Added setting to change tab size and tabs/spaces&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;110---aug-19-2020&#34;&gt;11.0 - Aug 19, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Import existing repositories on your iOS device&lt;/li&gt;
+&lt;li&gt;New: Auto-indentation&lt;/li&gt;
+&lt;li&gt;Enhancement: Performance improvements when editing large files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;100---aug-5-2020&#34;&gt;10.0 - Aug 5, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Restore scroll position when opening files&lt;/li&gt;
+&lt;li&gt;Enhancement: Improved path handling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;90---jul-29-2020&#34;&gt;9.0 - Jul 29, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Add support for multiple remotes&lt;/li&gt;
+&lt;li&gt;Enhancement: Rearrange branch status (ahead 5, behind 4, etc.) on status page&lt;/li&gt;
+&lt;li&gt;Enhancement: Improved error handling during merge conflicts&lt;/li&gt;
+&lt;li&gt;Enhancement: Prompt for review&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;80---jul-19-2020&#34;&gt;8.0 - Jul 19, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: PolyGit Pro&lt;/li&gt;
+&lt;li&gt;New: Updated app icon&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix landscape display on iPhone X, iPhone Xs and iPhone 11&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix issue where modifying a file on iPad would not immediately show changes on status page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;70---jul-3-2020&#34;&gt;7.0 - Jul 3, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bugfix: Fix crash on iPad when displaying popover menus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;60---jun-28-2020&#34;&gt;6.0 - Jun 28, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Add git stash&lt;/li&gt;
+&lt;li&gt;New: Add git revert&lt;/li&gt;
+&lt;li&gt;New: Add &amp;lsquo;Commit and Push&amp;rsquo; button&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;50---jun-20-2020&#34;&gt;5.0 - Jun 20, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Git graph visualization&lt;/li&gt;
+&lt;li&gt;New: Copy commit and branch details by long pressing&lt;/li&gt;
+&lt;li&gt;New: Add landing flow&lt;/li&gt;
+&lt;li&gt;Bugfix: Fixed rotation bug&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;40---jun-8-2020&#34;&gt;4.0 - Jun 8, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Custom editing keyboard&lt;/li&gt;
+&lt;li&gt;New: Add move file dialog&lt;/li&gt;
+&lt;li&gt;New: Add support for more font sizes&lt;/li&gt;
+&lt;li&gt;Enhancement: Improve file opening performance&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix crash when opening large images&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix crash when showing share sheet on iPad&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;30---jun-1-2020&#34;&gt;3.0 - Jun 1, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Autocapitalization and smart quotes settings&lt;/li&gt;
+&lt;li&gt;Enhancement: Significant improvements to status performance&lt;/li&gt;
+&lt;li&gt;Enhancement: Updated repository list design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;20---may-25-2020&#34;&gt;2.0 - May 25, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Git pull, reset, cherry-pick and more&lt;/li&gt;
+&lt;li&gt;New: Syntax highlighting&lt;/li&gt;
+&lt;li&gt;New: Tags&lt;/li&gt;
+&lt;li&gt;New: File history&lt;/li&gt;
+&lt;li&gt;New: Rename tracking&lt;/li&gt;
+&lt;li&gt;New: Updated design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;10---apr-19-2020&#34;&gt;1.0 - Apr 19, 2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Initial Release&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

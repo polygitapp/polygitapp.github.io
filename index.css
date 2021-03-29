@@ -1,0 +1,102 @@
+/*Font divide by 2 + 8*/
+/* 
+40 -> 28
+35 -> 27
+28 -> 25
+20 -> 17
+18 -> 15
+15 -> 13
+*/
+/* margins * 0.75 */
+
+.black-to-white {
+    background: linear-gradient(to bottom, black 60%, white 40%);
+}
+
+.appstore-button {
+    width: 200px;
+}
+
+@media screen and (max-width: 700px) {
+    .section-padding {
+        padding: 75px 0px 75px 0px;
+    }
+    
+    .appstore-button {
+        width: 175px;
+    }
+}
+
+body {
+    font-family: -apple-system, system-ui, Helvetica, Arial, sans-serif;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-center-child {
+    width: 1000px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    .flex-center-child {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+/* Triptych */
+
+.triptych-child {
+    display: flex;
+    align-items: flex-start;
+}
+
+.triptych-child-1 {
+    margin: 50px 0px 0px 0px;
+    box-shadow: 0 0 40px 0px #00000033;
+}
+
+.triptych-child-2 {
+    margin: 0px 40px 0px 40px;
+    box-shadow: 0 0 40px 0px #00000033;
+}
+
+.triptych-child-3 {
+    margin: 50px 0px 0px 0px;
+    box-shadow: 0 0 40px 0px #00000033;
+}
+
+.triptych-image {
+    box-shadow: 0 0 0 7px white;
+    border-radius: 5px;
+    max-width: 100%;
+    background-color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .triptych-child-1 {
+        margin: 25px 0px 0px 0px;
+    }
+
+    .triptych-child-2 {
+        margin: 0px -100px 0px -100px;
+        z-index: 2;
+    }
+
+    .triptych-child-3 {
+        margin: 25px 0px 0px 0px;
+    }
+}
+
+ion-icon {
+    margin: 1px 15px 0px 0px;
+}
+
+a {
+    text-decoration: none;
+}
