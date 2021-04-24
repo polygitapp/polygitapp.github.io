@@ -235,7 +235,38 @@
       <description>
         
         
-        &lt;h3 id=&#34;280---mar-3-2021&#34;&gt;28.0 - Mar 3, 2021&lt;/h3&gt;
+        &lt;h3 id=&#34;320---apr-20-2021&#34;&gt;32.0 - Apr 20, 2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Full text search&lt;/li&gt;
+&lt;li&gt;Enhancement: Option to switch between case matching, case ignoring and regular expression search.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix crash when resolving a conflict where one side is empty.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix issue with smart quotes when searching and replacing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;310---apr-7-2021&#34;&gt;31.0 - Apr 7, 2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhancement: Improve Markdown syntax highlighting.&lt;/li&gt;
+&lt;li&gt;Enhancement: Improve performance of opening large directories.&lt;/li&gt;
+&lt;li&gt;Enhancement: Improve directory sorting.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix issue where modified files were not immediately saved when the application was backgrounded.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix issue with text selection cursors when dragged near the edges of the screen.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix issue with text selection in locked files.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix issue with the editor becoming out of sync with file system when using custom repository locations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;300---mar-31-2021&#34;&gt;30.0 - Mar 31, 2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: GitLab and Bitbucket integration.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix issue where invalid credentials would be saved.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;290---mar-17-2021&#34;&gt;29.0 - Mar 17, 2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: GitHub integration.&lt;/li&gt;
+&lt;li&gt;Enhancement: Update design of repository list.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;281---mar-7-2021&#34;&gt;28.1 - Mar 7, 2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bugfix: Fix issue where adjusting the selection would cause the scroll position to jump.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;280---mar-3-2021&#34;&gt;28.0 - Mar 3, 2021&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;New: Auto-indentation now handles Markdown block markers.&lt;/li&gt;
 &lt;li&gt;Enhancement: Editor settings cleanup.&lt;/li&gt;
