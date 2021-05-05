@@ -235,7 +235,22 @@
       <description>
         
         
-        &lt;h3 id=&#34;320---apr-20-2021&#34;&gt;32.0 - Apr 20, 2021&lt;/h3&gt;
+        &lt;h3 id=&#34;340---may-5-2021&#34;&gt;34.0 - May 5, 2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Pin repositories for quick access.&lt;/li&gt;
+&lt;li&gt;New: Auto-capitalization and Assistant Keys setting.&lt;/li&gt;
+&lt;li&gt;New: Create a branch or tag at any commit.&lt;/li&gt;
+&lt;li&gt;New: Option to disable fast-forward merge.&lt;/li&gt;
+&lt;li&gt;New: Option to export generated HTML for markdown files.&lt;/li&gt;
+&lt;li&gt;New: View character and word counts.&lt;/li&gt;
+&lt;li&gt;Enhancement: Improve default commit message.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix layout of feature notification popover.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;330---apr-27-2021&#34;&gt;33.0 - Apr 27, 2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bugfix: Prefer authentication using SSH keys over username/password when both are allowed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;320---apr-20-2021&#34;&gt;32.0 - Apr 20, 2021&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;New: Full text search&lt;/li&gt;
 &lt;li&gt;Enhancement: Option to switch between case matching, case ignoring and regular expression search.&lt;/li&gt;
@@ -454,6 +469,38 @@
 &lt;ul&gt;
 &lt;li&gt;Initial Release&lt;/li&gt;
 &lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Help and Support</title>
+      <link>http://www.polygitapp.com/docs/support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.polygitapp.com/docs/support/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Have a question, suggestion or problem? We&amp;rsquo;d love to hear from you. Send us an email or tweet.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Email:&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:polygitapp@gmail.com&#34;&gt;polygitapp@gmail.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Twitter:&lt;/strong&gt;       &lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://twitter.com/polygitapp&#34;&gt;@polygitapp&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 
       </description>
     </item>
