@@ -235,7 +235,22 @@
       <description>
         
         
-        &lt;h3 id=&#34;340---may-5-2021&#34;&gt;34.0 - May 5, 2021&lt;/h3&gt;
+        &lt;h3 id=&#34;370---jun-23-2021&#34;&gt;37.0 - Jun 23, 2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Fast branch switching menu.&lt;/li&gt;
+&lt;li&gt;New: Support multiple credentials for the same host.&lt;/li&gt;
+&lt;li&gt;New: Option to set merge message.&lt;/li&gt;
+&lt;li&gt;Enhancement: Add passwords credentials from settings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;350---jun-9-2021&#34;&gt;35.0 - Jun 9, 2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Support multiple Git identities.&lt;/li&gt;
+&lt;li&gt;Enhancement: Highlight &amp;lsquo;.tsx&amp;rsquo; files as TypeScript.&lt;/li&gt;
+&lt;li&gt;Enhancement: Option to switch to newly created branches.&lt;/li&gt;
+&lt;li&gt;Enhancement: Option to change sort order from new file menu.&lt;/li&gt;
+&lt;li&gt;Enhancement: Improved split view behavior.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;340---may-5-2021&#34;&gt;34.0 - May 5, 2021&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;New: Pin repositories for quick access.&lt;/li&gt;
 &lt;li&gt;New: Auto-capitalization and Assistant Keys setting.&lt;/li&gt;
