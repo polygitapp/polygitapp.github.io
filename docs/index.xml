@@ -235,7 +235,11 @@
       <description>
         
         
-        &lt;h3 id=&#34;370---jun-23-2021&#34;&gt;37.0 - Jun 23, 2021&lt;/h3&gt;
+        &lt;h3 id=&#34;380---jul-17-2021&#34;&gt;38.0 - Jul 17, 2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: GPG keys&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;370---jun-23-2021&#34;&gt;37.0 - Jun 23, 2021&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;New: Fast branch switching menu.&lt;/li&gt;
 &lt;li&gt;New: Support multiple credentials for the same host.&lt;/li&gt;
