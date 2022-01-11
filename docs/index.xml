@@ -235,7 +235,30 @@
       <description>
         
         
-        &lt;h3 id=&#34;380---jul-17-2021&#34;&gt;38.0 - Jul 17, 2021&lt;/h3&gt;
+        &lt;h3 id=&#34;410---jan-10-2022&#34;&gt;41.0 - Jan 10, 2022&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: iOS 15.0 support.&lt;/li&gt;
+&lt;li&gt;Enhancement: Improve quick open behavior.&lt;/li&gt;
+&lt;li&gt;Enhancement: Add keyboard dismiss button on iPad.&lt;/li&gt;
+&lt;li&gt;Enhancement: Add Verilog support.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix issues with onscreen keyboard on iPad.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;400---aug-29-2021&#34;&gt;40.0 - Aug 29, 2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Quick Open menu. Tap the the title bar to quickly search and switch between files.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix issues with collapsing the split view.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix issues with alerts and the file info page after rotation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;390---aug-18-2021&#34;&gt;39.0 - Aug 18, 2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Import your SSH keys.&lt;/li&gt;
+&lt;li&gt;Enhancement: Improved markdown autoindentation.&lt;/li&gt;
+&lt;li&gt;Enhancement: Pull to refresh on branches and commits tab.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix issue with navigation headers appearing collapsed.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix issue with repository list after rotation.&lt;/li&gt;
+&lt;li&gt;Bugfix: Fix issue with dark mode.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;380---jul-17-2021&#34;&gt;38.0 - Jul 17, 2021&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;New: GPG keys&lt;/li&gt;
 &lt;/ul&gt;

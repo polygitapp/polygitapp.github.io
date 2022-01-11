@@ -1,53 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>http://www.polygitapp.com/docs/quick-start/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://www.polygitapp.com/docs/cloning-a-repository/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://www.polygitapp.com/docs/importing-a-repository/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://www.polygitapp.com/pricing/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://www.polygitapp.com/docs/creating-a-new-repository/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://www.polygitapp.com/docs/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://www.polygitapp.com/docs/pushing-and-pulling/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://www.polygitapp.com/docs/stashing-changes/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://www.polygitapp.com/docs/keyboardshortcuts/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://www.polygitapp.com/docs/changelog/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://www.polygitapp.com/docs/support/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://www.polygitapp.com/</loc>
   </url>
-  
 </urlset>
