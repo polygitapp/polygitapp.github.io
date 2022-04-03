@@ -235,7 +235,17 @@
       <description>
         
         
-        &lt;h3 id=&#34;410---jan-10-2022&#34;&gt;41.0 - Jan 10, 2022&lt;/h3&gt;
+        &lt;h3 id=&#34;430---apr-3-2022&#34;&gt;43.0 - Apr 3, 2022&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New: Tabs on iPad&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;420---jan-23-2022&#34;&gt;42.0 - Jan 23, 2022&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhancement: Context menu to copy a commit&amp;rsquo;s message and date.&lt;/li&gt;
+&lt;li&gt;Bugfix: Amending commits preserves original committer.&lt;/li&gt;
+&lt;li&gt;Bugfix: Cherry-picking commits preserves original committer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;410---jan-10-2022&#34;&gt;41.0 - Jan 10, 2022&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;New: iOS 15.0 support.&lt;/li&gt;
 &lt;li&gt;Enhancement: Improve quick open behavior.&lt;/li&gt;
